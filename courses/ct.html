@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html> <head>
+<link rel="stylesheet" type="text/css" href="./../css/style.css" />
+<title>Category Theory — Fall 2018</title>
+</head>
+
+<body>
+<div id="header">
+<div id="photo" style="width: 30%; float: right;"><img
+  src="./imgs/ct.png" alt="pullback diagram"></div>
+  <div id="contact" style="width: 70%">
+  <h1 id="name">Category Theory — Fall 2018</h1>
+    <h3>Princeton University</h3>
+    <h3>Tuesdays 5-7pm, Marx Hall 119</h3>
+  <strong>Contact:</strong><br>
+  Matthew Weaver: <script type="text/javascript">
+  <!--
+  h='&#x63;&#x73;&#46;&#112;&#114;&#x69;&#110;&#x63;&#x65;&#116;&#x6f;&#110;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x6d;&#122;&#x77;';e=n+a+h;
+  document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+  // -->
+  </script><noscript>mzw at cs dot princeton dot edu</noscript>
+  <br>
+  Snow Zhang: <a href="mailto:&#120;&#117;&#101;&#121;&#105;&#110;&#122;&#64;&#112;&#114;&#105;&#110;&#99;&#101;&#116;&#111;&#110;&#46;&#101;&#100;&#117;">xueyinz@princeton.edu</a><br>
+  listserv: <a href="https://groups.google.com/d/forum/ct-f18">join here</a>
+  </div>
+</div>
+
+<div id="first">
+  <p>We're going to learn category theory together!</p>
+  <p>Reference: <a
+  href="http://www.math.jhu.edu/~eriehl/context/">Category Theory in
+  Context</a>, Emily Riehl. </p>
+  <!-- <p>Check out our collectively compiled study guide of examples (and
+  counterexamples) in category theory <a href="https://v2.overleaf.com/read/zstpkyjknrgv">here</a>.</p> -->
+</div>
+
+<div id="section">
+  <h1>Schedule</h1>
+  <ul>
+    <li>Week One (Sept. 18) — categories, properties of morphisms,
+  duality, functors, natural transformations, equivalence of categories (§1.1 - 1.5) </li>
+    <li>Week Two (Sept. 25) — diagram chases, representable functors,
+        the Yoneda lemma, universality (§1.6 - 2.3) </li>
+    <li>Week Three (Oct. 2) — introduction to limits and colimits (§3.1 - 3.2) </li>
+    <li>Week Four (Oct. 9) — limits and colimits continued, introduction to adjunctions (§3.3 - 4.1) </li>
+    <li>Week Five (Oct. 16) — adjunctions continued, introduction to monads ands algebras (§4.2 - 5.2) </li>
+    <li>Week Six (Oct. 23) — monads and algebras continued, discussion on special topics and final projects (§5.3 - 5.6) </li>
+    <li>Week Seven (Nov. 6) — more monads!!! Here are the <a href="./pdf/Monad_and_Adjunctions.pdf">lecture
+  notes</a> (§5.3 - 5.6) </li>
+    <li>Week Eight (Nov. 13) — introduction to categorical
+  logic. monoidal, cartesian, and closed categories </li>
+    <li>Week Nine (Nov. 27) — introduction to topoi </li>
+    <li>Week Ten (Dec. 4) — the (categorical) syntax of type theory
+  and categories
+    with families </li>
+    <li>Week Eleven (Dec. 11) — towards higher category
+  theory. introduction to cofibrations, fibrations, and lifting </li>
+    <li>Week Twelve (Jan. ??) — project presentations </li>
+  </ul>
+  
+
+<div id="section">
+  <h1>Assignments</h1>
+
+  <ul>
+    <li> homework one (due Sept. 25): <a href="./hw/hw1.pdf">hw1.pdf</a> </li>
+    <li> homework two (due Oct. 2): <a href="./hw/hw2.pdf">hw2.pdf</a> </li>
+    <li> homework three (due Oct. 9): <a href="./hw/hw3.pdf">hw3.pdf</a> </li>
+    <li> homework four (due Oct. 16): <a href="./hw/hw4.pdf">hw4.pdf</a> </li>
+    <li> homework five (due Nov. 6): <a href="./hw/hw5.pdf">hw5.pdf</a> </li>
+    <li> homework six (due Nov. 13): <a href="./hw/hw6.pdf">hw6.pdf</a> </li>
+  </ul>
+</div>
+
+<div id="footer"></div>
+
+<script language="JavaScript">
+
+function formatDate(date) {
+  var monthNames = [
+    "Jan", "Feb", "Mar",
+    "Apr", "May", "Jun", "Jul",
+    "Aug", "Sep", "Oct",
+    "Nov", "Dec"
+    ];
+
+  var dayNames = [
+    "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+  var day = date.getDay();
+  var dateNum = date.getDate();
+  var monthIndex = date.getMonth();
+  var year = date.getFullYear();
+
+  return (dayNames[day] + " " + monthNames[monthIndex] + " " + dateNum + ", " + year);
+}
+
+var modDate = new Date(document.lastModified);
+document.getElementById("footer").innerHTML = "Last updated: " + formatDate(modDate);
+
+</script>
+
+</body>
+</html>
